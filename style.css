@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+	font-family: 'Open Sans';
+	color: #333;
+}
+
+section {
+	padding: 10px 0;
+	clear: both;
+	/*width: 75%;*/
+	margin: 0 auto;
+	font-size: 0.75em;
+	/*border-bottom: 1px solid;*/
+}
+
+section:last-child {
+	padding: 0;
+}
+
+.header {
+	padding-top: 0;
+}
+
+.header h1 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 2.3em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 600;
+	padding: 0 0 8px 0;
+	margin: 0;
+}
+
+.contact-info {
+	float: right;
+}
+
+.clear {
+	clear: both;
+	display: block;
+}
+
+.job-title {
+	font-weight: 600;
+}
+
+.job-primary-info {
+	float: left;
+}
+
+.job-dates {
+	float: right;
+}
+
+.job-date-start::after {
+	content: '\2014';
+	padding: 0px 4px 0px 7px;
+}
+
+.job-desc {
+	clear: both;
+}
+
+.job-desc {
+	padding-top: 8px;
+}
+
+.skills {
+	float: left;
+	width: 60%;
+}
+
+.education {
+	float: left;
+	width: 38%;
+	padding-left: 2%;
+}
+
+.indent {
+	padding-left: 44px;
+}
+
+.tagline {
+	font-size: 0.75em;
+	text-transform: none;
+	/*color: rgba(0,0,0,0.175);*/
+}
+
+.color-gray {
+	color: rgba(0,0,0,0.5);
+}
