@@ -6,6 +6,11 @@ body {
 	padding: 50px;
 }
 
+.container {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
 section {
 	padding: 10px 0;
 	clear: both;
