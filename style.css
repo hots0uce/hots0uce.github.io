@@ -102,3 +102,16 @@ h2 {
 .color-gray {
 	color: rgba(0,0,0,0.5);
 }
+
+.print {
+	display: none;
+}
+
+@media print {
+	div.print {
+		display: block;
+	}
+	span.print {
+		display: inline;
+	}
+}
